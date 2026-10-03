@@ -18,7 +18,7 @@
       "description": "German writing rules that avoid the typical tells of AI-generated text. Companion to wikipedia-article; lives in its own repo and is listed here for one-stop installs.",
       "source": {
         "source": "git-subdir",
-        "url": "LOGIN-TB/claude-skills",
+        "url": "https://github.com/LOGIN-TB/claude-skills",
         "path": "skills/vermenschlichen"
       }
     }
