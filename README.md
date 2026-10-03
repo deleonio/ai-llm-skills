@@ -26,7 +26,7 @@ Methods:
 
 A bare `/wikipedia-article` auto-detects the method from the input.
 
-Your personal writing style lives in a `STYLE.md` in your working directory — captured once via `/wikipedia-article style` from sample texts or a short interview, then applied automatically by `draft`, `revise`, and `polish`. It shapes voice, rhythm, and terminology, never facts or sourcing: where the profile collides with Wikipedia's ground rules, the rules win. `STYLE.md` is personal and stays out of version control.
+Your personal writing style lives in a `STYLE.md` in your working directory — captured once via `/wikipedia-article style` from sample texts or a short interview, then applied automatically by `draft`, `revise`, and `polish`. A fillable template ships with the skill ([style-template.md](skills/wikipedia-article/reference/style-template.md)); an installed personal style skill (e.g. `schreibstil`) is imported directly. It shapes voice, rhythm, and terminology, never facts or sourcing: where the profile collides with Wikipedia's ground rules, the rules win. `STYLE.md` is personal and stays out of version control.
 
 → [`skills/wikipedia-article/SKILL.md`](skills/wikipedia-article/SKILL.md)
 
@@ -96,4 +96,4 @@ Bugs, additions, and new skills are welcome as issues or pull requests. See [CON
 
 ## License
 
-[MIT](LICENSE)
+[EUPL-1.2](LICENSE)

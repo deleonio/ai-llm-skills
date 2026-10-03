@@ -37,4 +37,4 @@ and to the skill list in the `README.md`.
 
 Verify that the skill triggers on its own in a real session. If it doesn't, the cause is almost always the `description`. Only include the skill if it works without credentials, internal systems, or personal data.
 
-By opening a pull request you agree to license your contribution under the [MIT license](LICENSE) of this repository.
+By opening a pull request you agree to license your contribution under the [EUPL-1.2](LICENSE) of this repository.
