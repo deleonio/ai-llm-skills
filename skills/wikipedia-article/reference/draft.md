@@ -21,6 +21,7 @@ Enforce the ground rules in real time, every sentence:
 - **Never invent a source.** No sentence gets a citation you have not verified.
 - Attribute all evaluations. The article judges nothing; sources do.
 - Apply `STYLE.md` where it does not collide with the rules; note collisions in one line, rules win.
+- If a humanization skill (`vermenschlichen` for German) is installed, apply it from the first sentence — machine tells are far cheaper to avoid than to polish out.
 
 ## 4. Lead last
 

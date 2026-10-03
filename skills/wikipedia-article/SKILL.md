@@ -22,6 +22,12 @@ Boundaries of style:
 - On conflict, the encyclopedia rules win. Note the conflict in one line and move on — do not negotiate per sentence.
 - No `STYLE.md` → proceed without it and offer `/wikipedia-article style` once at the end.
 
+### Human prose — companion skill
+
+Encyclopedic and human are two different bars. The ground rules keep the article neutral and sourced; the rules below keep it from reading machine-made. Wikipedia editors and readers actively flag AI-generated prose, so this is part of the standard, not cosmetics.
+
+If a humanization skill such as `vermenschlichen` (German anti-AI-tell rules, built on de.wikipedia's *Anzeichen für KI-generierte Inhalte*) is installed, apply its rules to all prose in the edition's language — within the boundaries above; where it conflicts with Wikipedia conventions, Wikipedia wins. Without one, enforce the built-in machine-tell list in [reference/polish.md](reference/polish.md).
+
 ## Commands
 
 | Command | Category | Description | Reference |

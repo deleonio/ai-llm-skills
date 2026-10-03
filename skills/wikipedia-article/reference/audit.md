@@ -12,7 +12,7 @@ Work through the draft in this order, demanding proof from the text itself:
 2. **Sources** — Check every citation. Does the source exist as described? Does it really support the sentence it is attached to? Is it independent and reliable? Any uncited substantive claim is a finding.
 3. **Neutrality** — Hunt peacock, weasel, unattributed evaluations, promotional drift, and imbalance. Read each paragraph and ask: "Who is speaking here — the article, or a source?"
 4. **Original research** — Flag every conclusion, comparison, or causal claim the sources do not explicitly make.
-5. **Tone and style** — Flag essayistic, journalistic, promotional, or narrative passages. Flag suspense, reader address, and filler.
+5. **Tone and style** — Flag essayistic, journalistic, promotional, or narrative passages. Flag suspense, reader address, and filler. Flag machine-made prose patterns: copula avoidance ("es gibt", "fungiert als", "bringt X mit", "übernimmt die Einbindung"), stiff synonyms ("verstarb", "verfasste"), pronoun-open chains, colon appositions, mechanistic connectives, trikolons, participle-I add-ons, dash accumulation. For German, `vermenschlichen`'s rules are the authority when installed.
 6. **Structure** — Does the lead summarize the body? Are sections fact-driven and conventionally named? Is weight proportional to long-term significance?
 7. **Integrity** — Any sign of close paraphrasing or copied text from sources? Any fabricated-looking citation (implausible authors, dead-looking URLs, DOIs that do not resolve)? Treat as a Blocker and demand verification.
 

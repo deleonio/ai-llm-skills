@@ -10,7 +10,7 @@ A writing coach and opponent in one for creating and improving Wikipedia article
 
 When the draft is complete, the role flips: an Advocatus Diaboli dissects the article the way a deletion discussion would — checking every citation, hunting peacock and weasel wording, exposing original research and promotional drift — and reports findings by severity (Blocker, Major, Minor, Polish), each with a concrete revision instruction. The draft loops through review and revision until it earns a *ready* verdict; blockers are never waved through.
 
-Works for any language edition of Wikipedia; also handles biographies of living persons, company and organization articles, and conflict-of-interest situations.
+Works for any language edition of Wikipedia; also handles biographies of living persons, company and organization articles, and conflict-of-interest situations. German prose additionally follows the [vermenschlichen](https://github.com/LOGIN-TB/claude-skills) rules when that skill is installed (a built-in machine-tell list acts as fallback).
 
 Methods:
 
