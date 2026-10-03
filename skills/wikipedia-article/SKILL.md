@@ -28,6 +28,12 @@ Encyclopedic and human are two different bars. The ground rules keep the article
 
 If a humanization skill such as `vermenschlichen` (German anti-AI-tell rules, built on de.wikipedia's *Anzeichen für KI-generierte Inhalte*) is installed, apply its rules to all prose in the edition's language — within the boundaries above; where it conflicts with Wikipedia conventions, Wikipedia wins. Without one, enforce the built-in machine-tell list in [reference/polish.md](reference/polish.md).
 
+If a personal style skill such as `schreibstil` is installed (first-person voice, personal anecdotes, private opinions), it has two uses and one hard boundary:
+
+- It can **seed `STYLE.md`**: its transferable traits — rhythm, clarity, honesty, vocabulary, formatting habits — go through the `style` method into the profile.
+- It shapes **how you talk to the writer**: findings, change logs, and explanations take its voice.
+- It never enters **article prose**: an encyclopedia has no first-person narrator, no anecdotes, no private opinions. When the writer asks for an article "in my style", take the compatible traits into `STYLE.md` and say in one line why the voice itself stays out.
+
 ## Commands
 
 | Command | Category | Description | Reference |
