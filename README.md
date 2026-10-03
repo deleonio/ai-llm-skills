@@ -30,6 +30,13 @@ Your personal writing style lives in a `STYLE.md` in your working directory — 
 
 → [`skills/wikipedia-article/SKILL.md`](skills/wikipedia-article/SKILL.md)
 
+Companion skill: [vermenschlichen](https://github.com/LOGIN-TB/claude-skills) – German anti-AI-tell rules, used automatically by this skill when installed. It lives in its own repo but is listed in this marketplace, so a single `/plugin marketplace add` is enough to install both:
+
+```
+/plugin install wikipedia-article@ai-llm-skills
+/plugin install vermenschlichen@ai-llm-skills
+```
+
 ## Installation
 
 ### Claude Code

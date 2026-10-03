@@ -12,6 +12,15 @@
       "name": "wikipedia-article",
       "description": "Write Wikipedia articles at the highest encyclopedic standard, in your own writing style: assess notability, find sources, draft under mentor guard, audit via a devil's-advocate review, then polish. Methods: style, assess, sources, draft, audit, revise, polish.",
       "source": "./skills/wikipedia-article"
+    },
+    {
+      "name": "vermenschlichen",
+      "description": "German writing rules that avoid the typical tells of AI-generated text. Companion to wikipedia-article; lives in its own repo and is listed here for one-stop installs.",
+      "source": {
+        "source": "git-subdir",
+        "url": "LOGIN-TB/claude-skills",
+        "path": "skills/vermenschlichen"
+      }
     }
   ]
 }
