@@ -1,6 +1,6 @@
 ---
 name: wikipedia-article
-description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, or capture a personal writing style for article work. Methods assess, sources, draft, audit, revise, polish, style. Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix. Also enforces the LLM-use boundaries: AI output stays private working material — nothing machine-written is published to Wikipedia without human authorship and review.
+description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, or capture a personal writing style for article work. Methods assess, sources, draft, audit, revise, polish, style, walkthrough (findings step by step, one diff at a time). Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix. Also enforces the LLM-use boundaries: AI output stays private working material — nothing machine-written is published to Wikipedia without human authorship and review.
 ---
 
 # Wikipedia Article
@@ -45,14 +45,17 @@ If a personal style skill such as `schreibstil` is installed (first-person voice
 | `audit <draft>` | Evaluate | The dissection: read-only attack, findings + verdict | [reference/audit.md](reference/audit.md) |
 | `revise <draft>` | Refine | Apply audit findings in severity order, coached | [reference/revise.md](reference/revise.md) |
 | `polish <draft>` | Refine | Final quality pass: optimize prose without touching meaning | [reference/polish.md](reference/polish.md) |
+| `walkthrough <draft>` | Refine | Interactive: one finding at a time — discuss each diff, optimize it together, apply/change/skip; Go/No-Go live check for live-article work | [reference/walkthrough.md](reference/walkthrough.md) |
 
 Routing:
 
 - **No argument:** auto-detect from the input — topic only → `assess`; article or draft text → `audit`; draft plus findings → `revise`; a finished, reviewed draft plus "make it better" → `polish`. Ask once if two fit; never auto-run.
 - **Style question or "my writing style":** → `style`.
 - **Explicit command:** load its reference and follow it.
+- **"Step by step", "one finding at a time", "discuss the diffs with me" (e.g. "gehe die Findings Schritt für Schritt mit mir durch"):** → `walkthrough`.
+- **A `.wikitext` file (raw article source):** treat as article source code — audit and walkthrough operate on the wikitext itself (markup, templates, citations stay intact); live-article work keeps snapshots and working copies as `.wikitext` (see `walkthrough`, file conventions).
 
-Pipeline: `assess` → `sources` → `draft` → `audit` → `revise` → re-`audit` until *ready* → `polish` as the last pass, once content is stable. Never polish a draft that still has open Blockers or Majors.
+Pipeline: `assess` → `sources` → `draft` → `audit` → `revise` (batch) *or* `walkthrough` (interactive, one diff at a time) → re-`audit` until *ready* → `polish` as the last pass, once content is stable. Never polish a draft that still has open Blockers or Majors.
 
 ---
 
