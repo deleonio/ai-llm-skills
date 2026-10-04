@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Open collection of agent skills for Claude and other LLM agents",
-    "version": "0.5.0"
+    "version": "0.5.1"
   },
   "plugins": [
     {

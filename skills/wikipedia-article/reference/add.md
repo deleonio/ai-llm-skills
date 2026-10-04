@@ -38,5 +38,5 @@ Write the passage under the ground rules: attributed, neutral, cited at the sent
 - The change log: the new passage, plus any surrounding passages fixed in the placement pass.
 - A suggested edit summary (handover format): e.g. "Rezeptionsabschnitt um <Ereignis> ergänzt (Quellen: …)".
 - Open questions — especially anything the writer must still verify themselves (Part B boundary).
-- Live context: Go/No-Go result at handover; the writer reviews and transfers every edit themselves.
+- Live context: the skill itself runs the Go/No-Go check at handover and states the verdict — "GO as of now" or "NO-GO, re-sync first" (then re-validate before handing over again). The check is momentary; the writer can request a fresh one right before transferring. The writer reviews and transfers every edit themselves.
 - Draft context: recommend a fresh `audit` — a new passage is unproven until the Advocate has seen it.
