@@ -1,6 +1,6 @@
 ---
 name: wikipedia-article
-description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, or capture a personal writing style for article work. Methods assess, sources, draft, audit, revise, polish, style, walkthrough (findings step by step, one diff at a time). Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix. Also enforces the LLM-use boundaries: AI output stays private working material — nothing machine-written is published to Wikipedia without human authorship and review.
+description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, add new content, information, or events to one, or capture a personal writing style for article work. Methods assess, sources, add, draft, audit, revise, polish, style, walkthrough (findings step by step, one diff at a time). Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix. Also enforces the LLM-use boundaries: AI output stays private working material — nothing machine-written is published to Wikipedia without human authorship and review.
 ---
 
 # Wikipedia Article
@@ -41,6 +41,7 @@ If a personal style skill such as `schreibstil` is installed (first-person voice
 | `style` | Setup | Capture the personal writing style into STYLE.md | [reference/style.md](reference/style.md) |
 | `assess <topic>` | Build | Notability gate + source map, before anything is written | [reference/assess.md](reference/assess.md) |
 | `sources <topic>` | Build | Find and verify usable sources per claim | [reference/sources.md](reference/sources.md) |
+| `add <content>` | Build | Add new content, information, or an event to an article — weight gate, sources, placement, guarded passage | [reference/add.md](reference/add.md) |
 | `draft <topic>` | Build | Write under mentor guard, lead written last | [reference/draft.md](reference/draft.md) |
 | `audit <draft>` | Evaluate | The dissection: read-only attack, findings + verdict | [reference/audit.md](reference/audit.md) |
 | `revise <draft>` | Refine | Apply audit findings in severity order, coached | [reference/revise.md](reference/revise.md) |
@@ -50,6 +51,7 @@ If a personal style skill such as `schreibstil` is installed (first-person voice
 Routing:
 
 - **No argument:** auto-detect from the input — topic only → `assess`; article or draft text → `audit`; draft plus findings → `revise`; a finished, reviewed draft plus "make it better" → `polish`. Ask once if two fit; never auto-run.
+- **"Add X to the article", a new fact, information, or event to integrate (e.g. "füg das neue Ereignis hinzu"):** → `add`.
 - **Style question or "my writing style":** → `style`.
 - **Explicit command:** load its reference and follow it.
 - **"Step by step", "one finding at a time", "discuss the diffs with me" (e.g. "gehe die Findings Schritt für Schritt mit mir durch"):** → `walkthrough`.
