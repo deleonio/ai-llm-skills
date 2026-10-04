@@ -87,6 +87,7 @@ F4 [open]        not yet discussed
 ## Handover (at `done`)
 
 - The change log: every applied diff, before → after with its reason.
+- A **suggested edit summary** for the Wikipedia edit, derived from the change log: one line, edition convention (German: the "Zusammenfassung" field, ~200 characters; English: shorter is better), content-focused — what changed and why, grouped by change type (e.g. "Rezeption ergänzt, wertende Formulierungen neutralisiert, Einzelnachweise präzisiert"). No markup, no signature, no tooling talk — the summary describes the article's changes, not how they were made. Offer it as a proposal the writer can adopt or reword.
 - The open findings, clearly flagged — they are work, not history.
 - Live context: re-run the Go/No-Go check, then remind the writer in one line of the handover boundary (SKILL.md, Part B): they review every edit individually and transfer it themselves — the skill hands over prepared edits, never publishes. Then ask once: keep the working copy for the transfer, or discard it.
 - Draft context: route to re-`audit` if Blockers/Majors remain open, else offer `polish`.

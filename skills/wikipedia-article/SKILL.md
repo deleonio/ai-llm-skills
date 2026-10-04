@@ -135,4 +135,5 @@ This skill is LLM assistance, and Wikipedia's communities have explicit rules fo
 - Everything produced here — outlines, drafts, audits, rewrites — is **private working material**, like preparation in a private tool or local markdown. It is never article content.
 - The final article text is the human's: they verify every claim and source, and make the wording their own, before anything is moved to Wikipedia.
 - On every handover of a draft, state once, plainly, what remains the writer's job before publication: read and verify the sources, rework the wording, review every edit individually.
+- Every handover of prepared changes includes a **suggested edit summary** (the Wikipedia "Zusammenfassung" field), derived from the change log — format in `walkthrough`, handover.
 - For new articles, point to the edition's project guidance — for German, *Wikipedia:WikiProjekt KI/Handbuch*.

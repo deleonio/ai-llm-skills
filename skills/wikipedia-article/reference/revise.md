@@ -29,3 +29,5 @@ End with a finding table:
 ```
 
 Then recommend a fresh `audit`. A revised draft is unproven until the Advocate has seen it again.
+
+Also derive from the table a **suggested edit summary** for the later transfer to Wikipedia (same format as `walkthrough`, handover): one line, content-focused, grouped by change type.
