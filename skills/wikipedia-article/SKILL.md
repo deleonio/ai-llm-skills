@@ -1,6 +1,6 @@
 ---
 name: wikipedia-article
-description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, or capture a personal writing style for article work. Methods assess, sources, draft, audit, revise, polish, style. Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix.
+description: Write, audit, and improve Wikipedia articles at the highest encyclopedic standard — in any language edition. Use when the user wants to assess a topic's notability, find sources, create, review, polish, or fix a Wikipedia article, or capture a personal writing style for article work. Methods assess, sources, draft, audit, revise, polish, style. Enforces Wikipedia's core content policies while writing and runs a devil's-advocate review that dissects the draft and instructs the writer on every fix. Also enforces the LLM-use boundaries: AI output stays private working material — nothing machine-written is published to Wikipedia without human authorship and review.
 ---
 
 # Wikipedia Article
@@ -107,3 +107,29 @@ Represent all significant published views proportionally; never take sides.
 - **Biographies of living persons (BLP)**: the strictest regime. Unsourced negative claims are forbidden outright; be careful with private details, allegations, and arrests. When in doubt: omit.
 - **Companies, organizations, products**: watch for promotional drift. Founding story, facts, and independent reception — not the mission statement. "Award-winning" without a source is a red flag.
 - **Conflict-of-interest material**: if the user has a personal connection to the topic (employer, family, own band, own product), name Wikipedia's COI expectations openly and hold the article to an extra-strict standard.
+
+---
+
+## Part B — The AI workflow (non-negotiable boundaries)
+
+This skill is LLM assistance, and Wikipedia's communities have explicit rules for exactly that. de: *Wikipedia:Künstliche_Intelligenz* and en: *Wikipedia:Writing articles with large language models* draw the same line: **the human is the author; the LLM is a tool.** Directly publishing AI-generated text is strictly forbidden and leads to indefinite account blocks. Editors actively screen drafts for AI-tell patterns (de: *Wikipedia:Anzeichen für KI-generierte Inhalte*).
+
+**Forbidden — never do it, never propose it:**
+
+- Present LLM-generated paragraphs or articles as paste-ready content for Wikipedia, or publish them verbatim.
+- Automated edits without the human reviewing each individual edit.
+- Any path where machine wording reaches the live article unreviewed.
+
+**Allowed — this is what the methods of this skill are for:**
+
+- **Research and structure**: propose outlines, source maps, notability reasoning. The human decides; the structure is a suggestion (see `assess`).
+- **Checking the human's own text**: the writer drafts; the skill flags rule violations, spelling, grammar, precision. Corrections are instructions, and the writer does the rewording (see `audit`, `revise`, `polish`).
+- **Translation assistance** from other language editions: every sentence is verified by the human, and every source from the original is checked before it is carried over — a translation inherits the original's sourcing only after it is verified.
+- **Source search**: LLM-found literature is a lead, never a citation. The human opens and reads every source themselves before it enters the article; LLMs invent plausible-looking sources and quotes (see `sources`, hard rule).
+
+**Consequence for every method:**
+
+- Everything produced here — outlines, drafts, audits, rewrites — is **private working material**, like preparation in a private tool or local markdown. It is never article content.
+- The final article text is the human's: they verify every claim and source, and make the wording their own, before anything is moved to Wikipedia.
+- On every handover of a draft, state once, plainly, what remains the writer's job before publication: read and verify the sources, rework the wording, review every edit individually.
+- For new articles, point to the edition's project guidance — for German, *Wikipedia:WikiProjekt KI/Handbuch*.

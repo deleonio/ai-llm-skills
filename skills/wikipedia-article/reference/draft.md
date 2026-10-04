@@ -32,3 +32,7 @@ The lead summarizes the finished body: 2–4 paragraphs — importance, classifi
 Before handing over, run the audit checklist (reference/audit.md) against your own draft in fast mode: existence, sources, neutrality. Fix what it catches.
 
 Then hand the draft to `audit` — the Advocate attacks, you do not grade your own work.
+
+## 6. Handover boundary
+
+The draft is working material, not article content (SKILL.md, Part B). On handover, state in one line what the writer must do before anything lands on Wikipedia: verify every source by opening and reading it, make the wording their own, and review every edit individually. AI text published verbatim is a blockable offense on Wikipedia.

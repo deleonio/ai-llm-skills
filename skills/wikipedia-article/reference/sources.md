@@ -6,6 +6,8 @@ For a topic or a list of claims, find and verify sources. Only sources that exis
 
 **Never invent a source.** No fabricated authors, titles, years, URLs, DOIs, ISBNs. A hallucinated citation is worse than a missing one. If a web search or fetch tool is available, verify every source before listing it: does it exist, is it accessible, and does it say what it is claimed to say? If you cannot verify, say so — do not guess.
 
+**The human reads every source.** A source listed here is a lead, not a citation. It enters the article only after the writer has opened and read it themselves — LLMs invent plausible-looking sources and quotes, so human verification is mandatory, not optional (SKILL.md, Part B).
+
 ## Per claim
 
 1. Search for the best available support: specialized literature, quality press, academic journals, reference works first.

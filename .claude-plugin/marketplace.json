@@ -5,12 +5,12 @@
   },
   "metadata": {
     "description": "Open collection of agent skills for Claude and other LLM agents",
-    "version": "0.2.0"
+    "version": "0.3.0"
   },
   "plugins": [
     {
       "name": "wikipedia-article",
-      "description": "Write Wikipedia articles at the highest encyclopedic standard, in your own writing style: assess notability, find sources, draft under mentor guard, audit via a devil's-advocate review, then polish. Methods: style, assess, sources, draft, audit, revise, polish.",
+      "description": "Write Wikipedia articles at the highest encyclopedic standard, in your own writing style: assess notability, find sources, draft under mentor guard, audit via a devil's-advocate review, then polish. Enforces Wikipedia's core policies and the LLM-use boundaries — AI output stays private working material, nothing machine-written is published. Methods: style, assess, sources, draft, audit, revise, polish.",
       "source": "./skills/wikipedia-article"
     },
     {
