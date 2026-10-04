@@ -53,7 +53,7 @@ Routing:
 - **Style question or "my writing style":** → `style`.
 - **Explicit command:** load its reference and follow it.
 - **"Step by step", "one finding at a time", "discuss the diffs with me" (e.g. "gehe die Findings Schritt für Schritt mit mir durch"):** → `walkthrough`.
-- **A `.wikitext` file (raw article source):** treat as article source code — audit and walkthrough operate on the wikitext itself (markup, templates, citations stay intact); live-article work keeps snapshots and working copies as `.wikitext` (see `walkthrough`, file conventions).
+- **A `.wikitext` file (raw article source):** treat as article source code — audit and walkthrough operate on the wikitext itself (markup, templates, citations stay intact). Live-article work uses exactly two files per article: `<Title>.live.wikitext` (mirror, refreshed by the skill via `?action=raw`) and `<Title>.wikitext` (working copy) — see `walkthrough`, two-files rule.
 
 Pipeline: `assess` → `sources` → `draft` → `audit` → `revise` (batch) *or* `walkthrough` (interactive, one diff at a time) → re-`audit` until *ready* → `polish` as the last pass, once content is stable. Never polish a draft that still has open Blockers or Majors.
 
